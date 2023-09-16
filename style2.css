@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 250px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    /* display: inline-block;
+    text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 0 10px white;
+    overflow: hidden;
+    animation-delay: 0.5s;
+}
+.box span{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial;
+    text-shadow: -3px 0 10px rgb(255, 237, 237);
+    color: #000000;
+    transform: translateX(79px);
+}
+
+span:nth-child(1){
+    animation: hover 2s linear infinite;
+    animation-delay: .1s;
+}
+span:nth-child(2){
+    animation: hover 2s linear infinite;
+    animation-delay: .2s;
+}
+
+span:nth-child(3){
+    animation: hover 2s linear infinite;
+    animation-delay: .3s;
+}
+
+span:nth-child(4){
+    animation: hover 2s linear infinite;
+    animation-delay: .4s;
+}
+
+span:nth-child(5){
+    animation: hover 2s linear infinite;
+    animation-delay: .5s;
+}
+
+span:nth-child(6){
+    animation: hover 2s linear infinite;
+    animation-delay:.6s;
+}
+
+span:nth-child(7){
+    animation: hover 2s linear infinite;
+    animation-delay: .7s;
+}
+
+span:nth-child(8){
+    animation: hover 2s linear infinite;
+    animation-delay: .8s;
+}
+span:nth-child(9){
+    animation: hover 2s linear infinite;
+    animation-delay: .9s;
+}
+span:nth-child(10){
+    animation: hover 2s linear infinite;
+    animation-delay: 1.0s;
+}
+
+
+@keyframes hover{
+    0%{
+        transform: translateY(79px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
